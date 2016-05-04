@@ -217,7 +217,7 @@ class TkDialog(tk.Frame):
         options['initialdir'] = directory
         options['initialfile'] = ''
         options['parent'] = root
-        options['filetypes'] = [('Point prefs', '.prefs')]
+        options['filetypes'] = [('Point prefs', '.mlt.prefs')]
         options['title'] = 'Select the input file'
 
         # these options are for the output file dialog
@@ -225,7 +225,7 @@ class TkDialog(tk.Frame):
         options['initialdir'] = directory
         options['initialfile'] = ''
         options['parent'] = root
-        options['filetypes'] = [('Point prefs', '.prefs')]
+        options['filetypes'] = [('Point prefs', '.mlt.prefs')]
         options['title'] = 'Select the output file'
 
     def ProcessFile(self):
