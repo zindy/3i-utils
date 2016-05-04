@@ -25,9 +25,6 @@ import numpy as np
 import Tkinter as tk
 import Tkconstants, tkFileDialog
 import ttk
-import ttkcalendar
-import tkSimpleDialog
-import base64
 
 from functools import partial
 
